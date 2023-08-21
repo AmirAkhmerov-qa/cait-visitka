@@ -1,0 +1,66 @@
+
+body {
+  font-family: Comic Sans MS, cursive, sans-serif;
+  background-color: #ffe4e1
+}
+
+.quote{
+  font-size: 20px;
+  color: #7fc7ff;
+}
+
+
+.container {
+  padding: 0 40px;
+  margin-left: 100px;
+}
+
+p{
+  color: #7fc7ff;
+}
+
+h1 {
+  font-size: 60px;
+  color: #000;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 25px 0;
+  color:#000 ;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 25px 0;
+  color:#000 ;
+}
+
+ul {
+  font-size: 15px;
+  color:#7fc7ff ;
+}
+
+  /* Свойства фотографии*/
+.photo {
+  /* Радиус скругления */
+  border: 1px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+}
+
+  /* Свойства ссылок */
+a {
+  display: block;
+  text-decoration:none;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+  /* Что делать при наведении на ссылку */
+a:hover {
+  color:darkred;
+}
+
+
